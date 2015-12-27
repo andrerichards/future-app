@@ -1,0 +1,25 @@
+[0mCompiling "target/ios/not-used.js" from ["src" "env/dev"]...
+notifying browser that file changed:  target/ios/goog/deps.js
+notifying browser that file changed:  target/ios/cljs_deps.js
+notifying browser that file changed:  out/env/ios/main.js
+notifying browser that file changed:  out/future_app/android/core.js
+notifying browser that file changed:  out/env/android/main.js
+notifying browser that file changed:  out/future_app/ios/core.js
+[32mSuccessfully compiled "target/ios/not-used.js" in 5.18 seconds.[0m
+[0mCompiling "target/android/not-used.js" from ["src" "env/dev"]...
+notifying browser that file changed:  target/android/goog/deps.js
+notifying browser that file changed:  target/android/cljs_deps.js
+notifying browser that file changed:  out/future_app/android/core.js
+[32mSuccessfully compiled "target/android/not-used.js" in 0.808 seconds.[0m
+[0mCompiling "target/android/not-used.js" from ["src" "env/dev"]...
+notifying browser that file changed:  out/future_app/android/core.js
+[32mSuccessfully compiled "target/android/not-used.js" in 0.609 seconds.[0m
+[0mCompiling "target/android/not-used.js" from ["src" "env/dev"]...
+notifying browser that file changed:  out/future_app/android/core.js
+[32mSuccessfully compiled "target/android/not-used.js" in 0.425 seconds.[0m
+[0mCompiling "target/android/not-used.js" from ["src" "env/dev"]...
+notifying browser that file changed:  out/future_app/android/core.js
+[32mSuccessfully compiled "target/android/not-used.js" in 0.539 seconds.[0m
+[0mCompiling "target/android/not-used.js" from ["src" "env/dev"]...
+notifying browser that file changed:  out/future_app/android/core.js
+[32mSuccessfully compiled "target/android/not-used.js" in 0.614 seconds.[0m
