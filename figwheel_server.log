@@ -23,3 +23,121 @@ notifying browser that file changed:  out/future_app/android/core.js
 [0mCompiling "target/android/not-used.js" from ["src" "env/dev"]...
 notifying browser that file changed:  out/future_app/android/core.js
 [32mSuccessfully compiled "target/android/not-used.js" in 0.614 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/future_app/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.39 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/future_app/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.333 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/future_app/web/views.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.256 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  out/future_app/web/views.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.164 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  out/future_app/web/views.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.157 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  out/future_app/web/views.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.169 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/future_app/web/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.133 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/future_app/web/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.158 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  out/future_app/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.195 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/future_app/web/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.151 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.15 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/future_app/web/hqndlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.183 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/future_app/web/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.122 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/future_app/web/hqndlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.132 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/future_app/web/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.174 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  out/future_app/web/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.116 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/future_app/web/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.164 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  out/future_app/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.158 seconds.[0m
+[0mCompiling "target/ios/not-used.js" from ["src" "env/dev"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/future_app/web/views.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.517 seconds.[0m
+notifying browser that file changed:  target/ios/goog/deps.js
+notifying browser that file changed:  target/ios/cljs_deps.js
+notifying browser that file changed:  out/future_app/web/views.js
+[32mSuccessfully compiled "target/ios/not-used.js" in 0.557 seconds.[0m
+[0mCompiling "target/ios/not-used.js" from ["src" "env/dev"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  out/future_app/ios/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.272 seconds.[0m
+notifying browser that file changed:  out/future_app/ios/core.js
+[32mSuccessfully compiled "target/ios/not-used.js" in 0.3 seconds.[0m
+[0mCompiling "target/ios/not-used.js" from ["src" "env/dev"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  out/future_app/ios/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.209 seconds.[0m
+notifying browser that file changed:  out/future_app/ios/core.js
+[32mSuccessfully compiled "target/ios/not-used.js" in 0.312 seconds.[0m
+[0mCompiling "target/ios/not-used.js" from ["src" "env/dev"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  out/future_app/ios/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.296 seconds.[0m
+notifying browser that file changed:  out/future_app/ios/core.js
+[32mSuccessfully compiled "target/ios/not-used.js" in 0.444 seconds.[0m
+[0mCompiling "target/ios/not-used.js" from ["src" "env/dev"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  out/future_app/ios/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.458 seconds.[0m
+notifying browser that file changed:  out/future_app/ios/core.js
+[32mSuccessfully compiled "target/ios/not-used.js" in 0.461 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+[0mCompiling "target/ios/not-used.js" from ["src" "env/dev"]...
+notifying browser that file changed:  out/future_app/ios/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.245 seconds.[0m
+notifying browser that file changed:  out/future_app/ios/core.js
+[32mSuccessfully compiled "target/ios/not-used.js" in 0.269 seconds.[0m
+[0mCompiling "target/ios/not-used.js" from ["src" "env/dev"]...
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  out/future_app/ios/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.237 seconds.[0m
+notifying browser that file changed:  out/future_app/ios/core.js
+[32mSuccessfully compiled "target/ios/not-used.js" in 0.251 seconds.[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/future_app/web/views.js
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.351 seconds.[0m

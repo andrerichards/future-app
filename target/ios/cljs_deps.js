@@ -38,6 +38,14 @@ goog.addDependency("../figwheel/client/socket.js", ['figwheel.client.socket'], [
 goog.addDependency("../figwheel/client/heads_up.js", ['figwheel.client.heads_up'], ['goog.string', 'cljs.core', 'cljs.core.async', 'figwheel.client.socket', 'clojure.string']);
 goog.addDependency("../figwheel/client.js", ['figwheel.client'], ['goog.userAgent.product', 'goog.Uri', 'cljs.core', 'cljs.core.async', 'figwheel.client.file_reloading', 'figwheel.client.utils', 'cljs.repl', 'figwheel.client.heads_up', 'figwheel.client.socket', 'clojure.string']);
 goog.addDependency("../env/android/main.js", ['env.android.main'], ['cljs.core', 'future_app.android.core', 'figwheel.client']);
+goog.addDependency("../future_app/config.js", ['future_app.config'], ['cljs.core']);
+goog.addDependency("../future_app/web/handlers.js", ['future_app.web.handlers'], ['cljs.core', 're_frame.core']);
+goog.addDependency("../clojure/walk.js", ['clojure.walk'], ['cljs.core']);
+goog.addDependency("../secretary/core.js", ['secretary.core'], ['cljs.core', 'clojure.string', 'clojure.walk']);
+goog.addDependency("../future_app/web/routes.js", ['future_app.web.routes'], ['cljs.core', 'goog.history.EventType', 'goog.History', 'secretary.core', 'goog.events', 're_frame.core']);
+goog.addDependency("../future_app/web/views.js", ['future_app.web.views'], ['cljs.core', 're_frame.core']);
+goog.addDependency("../future_app/web/subs.js", ['future_app.web.subs'], ['cljs.core', 're_frame.core']);
+goog.addDependency("../future_app/web/core.js", ['future_app.web.core'], ['future_app.config', 'reagent.core', 'future_app.web.views', 'cljs.core', 'future_app.web.routes', 'future_app.handlers', 'future_app.web.handlers', 'future_app.web.subs', 'future_app.subs', 're_frame.core']);
 goog.addDependency("../future_app/ios/core.js", ['future_app.ios.core'], ['reagent.core', 'cljs.core', 'future_app.handlers', 'future_app.subs', 're_frame.core']);
 goog.addDependency("../env/ios/main.js", ['env.ios.main'], ['cljs.core', 'figwheel.client', 'future_app.ios.core']);
 goog.addDependency("../figwheel/connect.js", ['figwheel.connect'], ['env.ios.main', 'cljs.core', 'figwheel.client', 'figwheel.client.utils']);

@@ -23,23 +23,23 @@ re_frame.core.log_ex = re_frame.middleware.log_ex;
 re_frame.core.on_changes = re_frame.middleware.on_changes;
 re_frame.core.set_loggers_BANG_ = re_frame.utils.set_loggers_BANG_;
 re_frame.core.register_handler = (function re_frame$core$register_handler(var_args){
-var args18883 = [];
-var len__18177__auto___18886 = arguments.length;
-var i__18178__auto___18887 = (0);
+var args18923 = [];
+var len__18200__auto___18926 = arguments.length;
+var i__18201__auto___18927 = (0);
 while(true){
-if((i__18178__auto___18887 < len__18177__auto___18886)){
-args18883.push((arguments[i__18178__auto___18887]));
+if((i__18201__auto___18927 < len__18200__auto___18926)){
+args18923.push((arguments[i__18201__auto___18927]));
 
-var G__18888 = (i__18178__auto___18887 + (1));
-i__18178__auto___18887 = G__18888;
+var G__18928 = (i__18201__auto___18927 + (1));
+i__18201__auto___18927 = G__18928;
 continue;
 } else {
 }
 break;
 }
 
-var G__18885 = args18883.length;
-switch (G__18885) {
+var G__18925 = args18923.length;
+switch (G__18925) {
 case 2:
 return re_frame.core.register_handler.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -49,7 +49,7 @@ return re_frame.core.register_handler.cljs$core$IFn$_invoke$arity$3((arguments[(
 
 break;
 default:
-throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args18883.length)].join('')));
+throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args18923.length)].join('')));
 
 }
 });
@@ -63,5 +63,20 @@ return re_frame.handlers.register_base.call(null,id,new cljs.core.PersistentVect
 });
 
 re_frame.core.register_handler.cljs$lang$maxFixedArity = 3;
+/**
+ * Normal users of re-frame can ignore this part of the API. Useful
+ *   only to libraries providing 'isomorphic javascript' rendering on
+ *   Nodejs or Nashorn.
+ * 
+ *   Registers a callback function 'f'.
+ *   f will be called after each dispatched event is procecessed
+ *   f will be called with two parameters:
+ *  - the event's vector. That which was dispatched orignally.
+ *  - the further event queue - what is still to be processed. A PersistentQueue.
+ *   
+ */
+re_frame.core.add_post_event_callback = (function re_frame$core$add_post_event_callback(f){
+return re_frame.router.add_post_event_callback.call(null,re_frame.router.event_queue,f);
+});
 
 //# sourceMappingURL=core.js.map
