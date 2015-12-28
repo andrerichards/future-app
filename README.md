@@ -6,7 +6,7 @@ The idea was to check if some of the 'logic' (code in `handlers` and `subs`) can
 
 This is working, the only 'limitation' is that you can only have one figwheel instance running at any point in time - so you can work with, for example, the iOS view (lein figwheel ios), but has to kill that, and restart figwheel (lein figwheel web) to work with the web-app view.
 
-There is one `app-db`, `handlers.cljs` and `subs.cljs` that is shared between all three targets. Some targets can also define their own `handlers` and `subs`, e.g. `future.app.web.handlers` define handlers that are only applicable to the web-app (setting the currently visible panel).
+There is one `app-db`, `handlers.cljs` and `subs.cljs` that is shared between all three targets (i.e. iOS, Android and web-app). Some targets also define their own `handlers` and `subs`, e.g. `future.app.web.handlers` define handlers that are only applicable to the web-app (setting the currently visible panel).
 
 ## Usage
 
